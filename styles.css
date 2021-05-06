@@ -8,8 +8,14 @@ html {
 }
 body {
   font-family: "Open Sans", sans-serif;
-  
 }
+
+/* wrapper - this is a div that is holding all of the contents in the html page, this is how I have made space on left and right side of the page and ive used a margin 0 auto to center everything. */
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -68,7 +74,7 @@ header {
 
 nav {
   border-top: 1px solid #da0090;
-  border-bottom: 1px solid #73352e;
+  border-bottom: 1px solid #a61f11;
 }
 
 nav ul {
@@ -84,37 +90,35 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #73352e;
+  color: #a61f11;
   display: block;
   padding: 0.5rem 1rem;
 }
 
-nav a:hover{
-    color: #84de37;
-    text-decoration: none;
+nav a:hover {
+  color: #84de37;
+  text-decoration: none;
 }
 
 /* end of nav */
 
 /* section article */
 
-article{
-    margin: 2rem 0;
-    border-bottom: 1px solid #da0090;
+article {
+  margin: 2rem 0;
 }
 
-article img{
-    float: left;
-    margin: 0 1rem 1rem 0;
-    border-radius: 1rem;
+article img {
+  float: left;
+  margin: 0 1rem 1rem 0;
+  border-radius: 1rem;
 }
 
-article:after{
-    content:"";
-    display: table;
-    clear:both;
+article:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-
 
 .posted {
   font-size: 0.8rem;
@@ -125,18 +129,23 @@ article:after{
 
 /* footer */
 
+section {
+  border-bottom: 1px solid #da0090;
+  margin-bottom: 0.3rem;
+}
+
 footer {
   text-align: center;
   font-size: 0.8rem;
-  border-top: 1px #73352e solid;
-  margin: 2rem 0;
+  border-top: 1px #a61f11 solid;
 }
 
-footer ul{
-    list-style-type: none;
-    padding: 0;
-} 
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
-footer li{
-    display: inline-block;
+footer li {
+  display: inline-block;
 }
